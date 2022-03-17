@@ -12,8 +12,9 @@
 }
 
 body {
-  margin: 0;
   background-color: coral;
+  margin: 0; height: 100%; 
+  overflow: hidden
 }
 
 body,
@@ -27,7 +28,8 @@ body,
   font-size: 3rem;
   color: black;
   font-weight: bold;
-  right: 57rem;
+  margin:auto;
+  right:50%;
 }
 
 .wrapper{
@@ -36,7 +38,7 @@ body,
 }
 
 .container {
-  background-color: lightgrey;
+  background-color: white;
   padding: 1rem;
   border-radius: .5rem;
   width: 700px;
@@ -94,10 +96,27 @@ hr {
 }
 
 .bottom {
-  text-align: center;
+text-align:center;
+  margin:auto;
+  position:absolute;
+  bottom:0%;
+  width:100%;
 }
 
 a {
   text-decoration: none;
   color: azure;
+}
+
+br {
+  line-height:35;
+}
+
+button {
+  width:15%;
+  height:50px;
+  border-radius: .5rem;
+  position:absolute;
+  left:42%;
+  bottom:25%;
 }
